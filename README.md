@@ -37,8 +37,6 @@ Project Directory
 ├── notebooks
 
 
-
-
 ├── data
 
 │   ├── disaster_categories.csv  # data to process
