@@ -23,4 +23,4 @@ We will display the results in a Flask web app that has a text box in which we c
 
 # Files:
 
-"""Project Directory ├── data │ ├── raw │ ├── processed │ └── test ├── models ├── scripts │ ├── data_processing.py │ ├── model_training.py │ └── evaluation.py ├── notebooks └── README.md"""
+Project Directory ├── data │ ├── raw │ ├── processed │ └── test ├── models ├── scripts │ ├── data_processing.py │ ├── model_training.py │ └── evaluation.py ├── notebooks └── README.md
