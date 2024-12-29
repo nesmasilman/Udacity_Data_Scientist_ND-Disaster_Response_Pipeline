@@ -42,13 +42,13 @@ Project Directory
 
 │   ── disaster_messages.csv  # data to process
 
-│   ── process_data.py
+│   ── process_data.py # ETL code
 
 │   ── InsertDatabaseName.db   # database to save clean data to
 
 ├── models
 
-│   ── train_classifier.py
+│   ── train_classifier.py # ML model training
 
 │   ── classifier.pkl  # saved model 
 
