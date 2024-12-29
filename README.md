@@ -22,8 +22,8 @@ We will create a machine learning pipeline that will be trained on our data to c
 We will display the results in a Flask web app that has a text box in which we can enter the emergency messages, and see the classification categories. The app also displays visualizations for the top 10 and lowest 10 categories.
 
 # Files:
+
 - app
-  
 | - template
 | |- master.html  # main page of web app
 | |- go.html  # classification result page of web app
@@ -32,7 +32,7 @@ We will display the results in a Flask web app that has a text box in which we c
 - data
 |- disaster_categories.csv  # data to process 
 |- disaster_messages.csv  # data to process
-|- process_data.py # # Clean data and create ETL
+|- process_data.py
 |- InsertDatabaseName.db   # database to save clean data to
 
 - models
