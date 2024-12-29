@@ -27,6 +27,7 @@ We will display the results in a Flask web app that has a text box in which we c
 Project Directory
 
 - app
+
 | - template
 
 | |- master.html  # main page of web app
