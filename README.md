@@ -24,16 +24,21 @@ We will create a machine learning pipeline that will be trained on our data to c
 3- Flask App:
 We will display the results in a Flask web app that has a text box in which we can enter the emergency messages, and see the classification categories. The app also displays visualizations for the top 10 and lowest 10 categories.
 
-### Instructions:
-1. Run the following commands in the project's root directory to set up your database and model.
+# Files:
+- app
+| - template
+| |- master.html  # main page of web app
+| |- go.html  # classification result page of web app
+|- run.py  # Flask file that runs app
 
-    - To run ETL pipeline that cleans data and stores in database
-        `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
-    - To run ML pipeline that trains classifier and saves
-        `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
+- data
+|- disaster_categories.csv  # data to process 
+|- disaster_messages.csv  # data to process
+|- process_data.py
+|- InsertDatabaseName.db   # database to save clean data to
 
-2. Go to `app` directory: `cd app`
+- models
+|- train_classifier.py
+|- classifier.pkl  # saved model 
 
-3. Run your web app: `python run.py`
-
-4. Click the `PREVIEW` button to open the homepage
+- README.md
