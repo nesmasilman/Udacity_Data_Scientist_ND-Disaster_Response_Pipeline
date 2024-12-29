@@ -36,6 +36,8 @@ Project Directory
 
 │   ── run.py  # Flask file that runs app
 
+├── data
+
 │   ── disaster_categories.csv  # data to process
 
 │   ── disaster_messages.csv  # data to process
