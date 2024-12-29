@@ -1,5 +1,13 @@
-### Project Title
-# Disaster Response Pipeline Project
+# Project Title
+### Disaster Response Pipeline Project
+
+# Table of contents
+Introduction
+Scope
+Datasets
+Technologies
+Outcome
+Resources
 
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
