@@ -26,25 +26,34 @@ We will display the results in a Flask web app that has a text box in which we c
 
 Project Directory
 
-├── data
+├── app
 
-│   ├── raw
+│   ├── master.html  # main page of web app
 
-│   ├── processed
-
-│   └── test
-
-├── models
-
-├── scripts
-
-│   ├── data_processing.py
-
-│   ├── model_training.py
+│   ├── go.html  # classification result page of web app
 
 │   └── evaluation.py
 
 ├── notebooks
+
+
+
+
+├── data
+
+│   ├── disaster_categories.csv  # data to process
+
+│   ├── disaster_messages.csv  # data to process
+
+│   ├── process_data.py
+
+│   ├── InsertDatabaseName.db   # database to save clean data to
+
+├── models
+
+│   ├── train_classifier.py
+
+│   ├── classifier.pkl  # saved model 
 
 └── README.md
 
