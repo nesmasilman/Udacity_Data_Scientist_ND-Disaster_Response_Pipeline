@@ -28,16 +28,13 @@ Project Directory
 
 ├── app
 
+│   ── template
+
 │   ├── master.html  # main page of web app
 
 │   ├── go.html  # classification result page of web app
 
-│   └── evaluation.py
-
-├── notebooks
-
-
-├── data
+│   ── run.py  # Flask file that runs app
 
 │   ── disaster_categories.csv  # data to process
 
