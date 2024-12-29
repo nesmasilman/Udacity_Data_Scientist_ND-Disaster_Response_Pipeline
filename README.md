@@ -16,7 +16,7 @@ This project aims at creating an ETL pipeline that takes messages received from 
 Our project consists of 3 main components:
 
 1- ETL pipeline
-In this part, We will read the dataset, clean the data, and then store it in a SQLite database. process_data.py.
+In this part, We will read a labelled dataset that will be used to build the classifier, clean the data, and then store it in a SQLite database. process_data.py.
 
 2- Machine Learning
 We will create a machine learning pipeline that will be trained on our data to classify emergency messages into 36 categories (multi-output classification). train_classifier.py.
