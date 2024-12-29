@@ -13,7 +13,7 @@ This project aims at creating an ETL pipeline that takes messages received from 
 Our project consists of 3 main components:
 
 1- ETL pipeline:
-In this part, We will read a labelled dataset that will be used to build the classifier, clean the data, and then store it in a SQLite database. process_data.py.
+In this part, We will read a labelled dataset that will be used to build the classifier, clean the data, and then store it in a SQLite database. 
 
 2- Machine Learning:
 We will create a machine learning pipeline that will be trained on our data to classify emergency messages into 36 categories (multi-output classification). train_classifier.py.
@@ -23,6 +23,7 @@ We will display the results in a Flask web app that has a text box in which we c
 
 # Files:
 - app
+  
 | - template
 | |- master.html  # main page of web app
 | |- go.html  # classification result page of web app
@@ -31,7 +32,7 @@ We will display the results in a Flask web app that has a text box in which we c
 - data
 |- disaster_categories.csv  # data to process 
 |- disaster_messages.csv  # data to process
-|- process_data.py
+|- process_data.py # # Clean data and create ETL
 |- InsertDatabaseName.db   # database to save clean data to
 
 - models
