@@ -25,14 +25,17 @@ We will display the results in a Flask web app that has a text box in which we c
 # Files:
 
 Project Directory
-
-- app
-
-| - template
-
-| |- master.html  # main page of web app
-
-| |- go.html  # classification result page of web app
+├── data
+│   ├── raw
+│   ├── processed
+│   └── test
+├── models
+├── scripts
+│   ├── data_processing.py
+│   ├── model_training.py
+│   └── evaluation.py
+├── notebooks
+└── README.md
 
 # Technologies
 This project uses Python 3.10.9 version
