@@ -2,8 +2,8 @@
 ### Disaster Response Pipeline Project
 
 # Table of contents
-Introduction
-Scope
+* Introduction
+* Scope
 Datasets
 Technologies
 Outcome
