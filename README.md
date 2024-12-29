@@ -5,9 +5,6 @@
 * Overview
 * Components
 * Files
-* Technologies
-* Outcome
-* Resources
 
 # Overview
 This project aims at creating an ETL pipeline that takes messages received from people during disasters, cleans the messages text and then uses a machine learning model to classify the category of the emergency text. We have 36 main emergency categories. We will update our work on a flask web application that will have a text box to enter the message, and then it retrieves the categories related to the message. This will help emergency workers to easily identify people needs during crisis and assign it to the concerned organizations.
