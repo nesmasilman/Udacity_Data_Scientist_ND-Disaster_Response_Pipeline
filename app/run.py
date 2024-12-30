@@ -38,7 +38,7 @@ model = joblib.load("../models/classifier.pkl")
 @app.route('/')
 @app.route('/index')
 def index():
-    
+    """Extract the required data & create graphs"""
     # extract data needed for visuals
     numeric_df = df.select_dtypes(include=['number']).iloc[:,1:]
     totals = numeric_df.sum(axis=0)
@@ -57,7 +57,6 @@ def index():
     vals2=list(lowest10.Count)
 
     # create visuals
-    # TODO: Below is an example - modify to create your own visuals
     graphs = [
         {
             'data': [
