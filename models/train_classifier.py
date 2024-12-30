@@ -21,7 +21,6 @@ import pickle
 nltk.download(['punkt', 'wordnet', 'averaged_perceptron_tagger'])
 nltk.download('stopwords')
 
-
 def load_data(database_filepath):
     """Reads the data from filepath, splits into independant columns, 
         target column and categories names"""
@@ -38,7 +37,7 @@ def load_data(database_filepath):
 
     # Define target and independant variables
     X = df2['message']
-    Y = df2.drop(columns=['id','message', 'genre'], axis=1)
+    Y = df2.drop(columns=['id', 'message', 'genre'], axis=1)
     category_names = Y.columns.tolist()
     
     return X, Y, category_names
